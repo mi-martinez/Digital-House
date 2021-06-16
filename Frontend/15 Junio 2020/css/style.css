@@ -1,0 +1,64 @@
+body {
+    background: #ffffff;
+    font-family: Times New Roman;
+}
+
+header {
+    background: #E5E5E5;
+    text-align: center;
+}
+
+.top-header {
+    background: #C4C4C4;
+}
+
+h1 {
+    color: #005677;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+}
+.tittle {
+    background: #c4c4c4;
+}
+
+h2 {
+    color: #005677;
+    font-size: 20px;
+}
+
+li {
+    font-style: italic;
+    font-weight: bold;
+}
+
+li span {
+    font-style: initial;
+    font-weight: normal;
+}
+
+h1, h2 {
+    letter-spacing: 3px;
+}
+.date {
+    display: inline-block;
+    font-weight: bold;
+}
+.date-top span.second{
+    display: block;
+    padding-left: 86px;
+}
+footer {
+    background: #005677;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.copyright {
+    padding: 5px;
+}
+.gap {
+    height: 100px;
+}
