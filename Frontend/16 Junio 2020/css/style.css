@@ -1,0 +1,64 @@
+body{
+    background: url(../img/solid-color-zoom-background.jpg);
+    background-size: cover;
+    font-family: 'Prompt', sans-serif;
+}
+h1 {
+    color: #0b1a30;
+    font-family: 'Paytone One', sans-serif;
+}
+.profile-resume {
+    text-align: center;
+    background: #0b1a3033;
+    max-width: 470px;
+    border-radius: 10px;
+    margin: 10% auto;
+    border: 1px solid #440789;
+    backdrop-filter: blur(20px);
+}
+.country {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: -20px;
+}
+img.profile {
+    width: 100%;
+}
+.links a {
+    background: #1313131a;
+    display: block;
+    padding: 8px;
+    margin-top: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.links {
+    margin-top: 28px;
+}
+.cv {
+    background: #000000b0;
+    padding: 15px;
+    margin-top: 25px;
+    color: #fff;
+}
+.exper h2 {
+    font-size: 18px;
+}
+
+.item h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #fcd86c;
+}
+
+.item p {
+    margin: 5px;
+}
+p.bio {
+    margin-top: -15px;
+    border-bottom: 1px solid #ffffff14;
+    padding-bottom: 20px;
+}
+span.date {
+    color: #57daf6;
+}
