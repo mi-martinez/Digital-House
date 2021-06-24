@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    align-items: center;
+    padding: 9px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 200;
+}
+section {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    max-width: 982px;
+    margin: 30px auto;
+}
+.promo {
+    background: url("../images/delivery.jpg");
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.menu-pizza {
+    flex: 1;
+    background: #fff;
+    border-radius: 5px;
+}
+.promo h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+    margin-left: 25px;
+}
+
+.promo h3 span {
+    color: #fff;
+}
+
+h2.tittle {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+    text-align: center;
+    padding-top: 5px;
+}
+.menu-ck {
+    display: flex;
+    padding: 10px 0 31px;
+}
+.menu-ck div {
+    flex: 1;
+    justify-content: center;
+}
+
+.podio-img {
+    align-items: center;
+    display: flex;
+}
+.menu-ck ol {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222;
+}
+
+.top-list {
+    padding-left: 35px;
+}
+
+h2.top-5 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+    padding-left: 39px;
+    padding-bottom: 5px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    align-items: center;
+    padding: 9px 25px;
+    flex-direction: row-reverse;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    margin-right: 0;
+    flex-direction: column;
+    padding-left: 0;
+    justify-content: space-between;
+    height: 100px;
+}
