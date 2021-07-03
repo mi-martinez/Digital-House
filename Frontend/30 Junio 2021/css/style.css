@@ -1,0 +1,147 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top {
+    background: #D1891C;
+    padding: 5px;
+}
+
+body {
+    margin: 0 auto;
+}
+.tittle {
+    background: #00669F;
+    padding: 10px 20px;
+}
+
+main {
+    background: #E5E5E5;
+}
+.content {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 70px;
+    max-width: 1390px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content article {
+    margin: 10px;
+    flex: 1;
+}
+.card {
+    background: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0 0;
+}
+.banner {
+    background: url(../images/banner-btm.png);
+    height: 193px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border-radius: 16px 16px 0 0;
+}
+
+.banner .img {
+    background: url(../images/batman.png);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 120px;
+    width: 120px;
+    border-radius: 75px;
+    position: relative;
+    left: 50%;
+    margin-left: -60px;
+    top: 95px;
+}
+.hearth {
+    background: url(../images/heart.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 10px;
+}
+.text-contain {
+    text-align: center;
+    padding: 50px 15px 20px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+}
+.text-contain h2{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.text-contain a{
+    background: #00669F;
+    padding: 15px 35px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 15px;
+}
+footer {
+    background: #00669f;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF9F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    width: 138px;
+}
+.harley .banner {
+    background: url(../images/banner-btm2.png);
+}
+.harley .banner .img {
+    background: url(../images/harley.png);
+}
+.super .banner .img {
+    background: url(../images/super.png);
+}
+.super .banner {
+    background: url(../images/super-bck.png);
+}
+.maravilla .banner .img {
+    background: url(../images/maravilla.png);
+}
+.maravilla .banner {
+    background: url(../images/bck-marav.jpg);
+}
+.more {
+    background: #00669f;
+    position: fixed;
+    right: 15px;
+    bottom: 20%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 70px;
+}
+@media (max-width: 900px){
+    .content article {
+        width: calc(50% - 30px);
+        flex: auto;
+    }
+} 
+@media (max-width: 590px){
+    .content article {
+        width: calc(100% - 30px);
+        flex: auto;
+    }
+} 
