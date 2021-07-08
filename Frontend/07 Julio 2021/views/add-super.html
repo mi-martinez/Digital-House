@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Clase 07 de Julio - Add super</title>
+</head>
+
+<body>
+    <header>
+        <div class="top">Descuentos 20%</div>
+        <div class="tittle">
+            <h1><img src="../images/logo.png" alt=""> Tienda de los Super</h1>
+        </div>
+        <div class="menu-items">
+            <ol>
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ol>
+        </div>
+    </header>
+    <main>
+        <div class="content-add">
+            <h1>Añade tu super!</h1>
+            <p class="description">Agregá tu personaje favorito completando las opciones.</p>
+            <div class="form">
+                <form action="" method="post">
+                    <div class="row1">
+                        <label for="name">Nombre<input type="text" name="name" id="name" placeholder="Nombre"></label>
+                        <label for="especie">Especie (Campo Obligatorio).
+                            <select name="especie" id="especie">
+                                <option value="humano">Humano</option>
+                                <option value="extraterrestre">Extraterrestre</option>
+                            </select></label>
+                    </div>
+                    <div class="row1 date-r">
+                        <label for="fecha">Fecha:<input type="date" name="fecha" id="fecha"></label>
+                        <label for="foto">Agregar Foto:<input type="file" name="foto" id="foto"
+                                accept="image/*"></label>
+                    </div>
+                    <div class="row3">
+                        <div class="row3-1">
+                            <label for="descripcion"><textarea name="descripcion" id="descripcion" cols="30" rows="10"
+                                    placeholder="Descripción"></textarea></label>
+                        </div>
+                        <div class="row3-2">
+                            <div class="poderes">
+                                <h3>Poderes</h3>
+                                <label><input type="checkbox" name="poderes" id="volar" value="Volar">Volar</label>
+                                <label><input type="checkbox" name="poderes" id="superint"
+                                        value="Super Inteligencia">Super Inteligencia</label>
+                                <label><input type="checkbox" name="poderes" id="vistarayo"
+                                        value="Vista de rayo láser">Vista de rayo láser</label>
+                                <label><input type="checkbox" name="poderes" id="billete"
+                                        value="Billetera Gorda">Billetera Gorda</label>
+                            </div>
+                            <div class="personaje">
+                                <h3>Tipo de personaje</h3>
+                                <label><input type="radio" name="personaje" id="heroe" value="heroe">Héroe /
+                                    Heroina</label>
+                                <label><input type="radio" name="personaje" id="heroe" value="villano">Villano /
+                                    Villana</label>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Añadir">
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer>Todos los derechos reservados a FRONT END 1 <img src="../images/Vector (1).png"></footer>
+</body>
+
+</html>
